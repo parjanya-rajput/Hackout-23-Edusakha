@@ -10,10 +10,14 @@ analytics of the students attendance.
 ## Basic features of the app
 
 ❖ Login Page for both students and institutions
+
 ❖ Upcoming events/webinars displayed on the home page
+
 ❖ Students attend conferences with teachers and can ask their
 doubts in the chat section
+
 ❖ Recorded webinar videos for viewing later
+
 ❖ The institution can view the analytics of the students 
 
 
