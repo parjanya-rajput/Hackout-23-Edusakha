@@ -71,6 +71,7 @@ class _StudentRegisterState extends State<StudentRegister> {
                       password: password,
                     );
                     await AuthService.firebase().sendEmailVerification();
+                    Navigator.of(context).pushNamed(loginRoute);
                   } on WeakPasswordAuthException{
                     await showErrorDialog(
                       context,

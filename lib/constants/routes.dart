@@ -1,4 +1,5 @@
 const loginRoute = '/login';
 const studentRegisterRoute = '/studentRegister';
-const notesRoute = '/notes';
-const createUpdateNoteRoute = '/notes/new-note';
+const uniOrStudent = '/uniOrStudent';
+const homeRouteStudent = '/homeStudent';
+const homeRouteUni = '/homeUni';

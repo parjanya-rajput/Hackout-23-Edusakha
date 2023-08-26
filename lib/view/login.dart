@@ -1,4 +1,5 @@
 import 'package:edusakha/constants/routes.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:edusakha/dialogs/error_dialog.dart';
 import '../auth/auth_exceptions.dart';
@@ -64,6 +65,7 @@ class _LoginViewState extends State<LoginView> {
                   backgroundColor: MaterialStatePropertyAll(Colors.white),
                 ),
                 onPressed: () async {
+                  await Firebase.initializeApp();
                   try {
                     final email = _email.text;
                     final password = _password.text;
@@ -74,6 +76,15 @@ class _LoginViewState extends State<LoginView> {
                     final user = AuthService
                         .firebase()
                         .currentUser;
+                    if (user?.isEmailVerified ?? false) {
+                      Navigator.pushNamedAndRemoveUntil(
+                        context,
+                        uniOrStudent,
+                            (route) => false,
+                      );
+                    } else {
+                        await showErrorDialog(context,'Please Verify your Email!');
+                    }
                   } on UserNotFoundAuthException {
                     await showErrorDialog(context,
                         'User Not Found'
