@@ -1,6 +1,7 @@
 import 'package:edusakha/auth/auth_user.dart';
 
 abstract class AuthProvider {
+  Future<void> initialize();
   AuthUser? get currentUser;
 
   Future<AuthUser> logIn({
@@ -17,5 +18,4 @@ abstract class AuthProvider {
 
   Future<void> sendEmailVerification();
 
-  Future<void> initialize();
 }

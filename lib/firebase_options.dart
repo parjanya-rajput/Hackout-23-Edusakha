@@ -70,6 +70,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '228572729109',
     projectId: 'edusakha-5fe8f',
     storageBucket: 'edusakha-5fe8f.appspot.com',
+    androidClientId: '228572729109-or92p3ao9bl76a3u9asmj06i956jt9c0.apps.googleusercontent.com',
     iosClientId: '228572729109-jgebgvqblqq37mbbcl05a6hqin2ohcpq.apps.googleusercontent.com',
     iosBundleId: 'com.example.edusakha',
   );
