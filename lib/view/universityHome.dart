@@ -33,7 +33,7 @@ class _HomePageUniversityState extends State<HomePageUniversity> {
       ),
       body: SafeArea(
         child: Container(
-          
+
           padding: Vx.m32,
           child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
