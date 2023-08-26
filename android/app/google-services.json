@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "228572729109",
+    "project_id": "edusakha-5fe8f",
+    "storage_bucket": "edusakha-5fe8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228572729109:android:30831e965a5a160f6ca31c",
+        "android_client_info": {
+          "package_name": "com.example.edusakha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228572729109-v09uejae05a89ud28341602241faoelo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZjpVr4f1ipLNolb8jCtezHWuyez6c4pg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228572729109-v09uejae05a89ud28341602241faoelo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
