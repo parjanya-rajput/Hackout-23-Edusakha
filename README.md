@@ -1,16 +1,23 @@
-# edusakha
+# Edusakha
 
-A new Flutter project.
+An app in Flutter which helps in providing a platform for
+the students to view upcoming events, attend webinars hosted by institutions,
+ask doubts in them, review the recorded lectures and discuss among peer
+students.
+On the other hand, the institutions can also schedule meetings and view the
+analytics of the students attendance.
 
-## Getting Started
+## Basic features of the app
 
-This project is a starting point for a Flutter application.
+❖ Login Page for both students and institutions
 
-A few resources to get you started if this is your first Flutter project:
+❖ Upcoming events/webinars displayed on the home page
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+❖ Students attend conferences with teachers and can ask their
+doubts in the chat section
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+❖ Recorded webinar videos for viewing later
+
+❖ The institution can view the analytics of the students 
+
+
