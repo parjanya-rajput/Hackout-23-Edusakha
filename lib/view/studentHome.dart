@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
 
-class HomePageUniversity extends StatefulWidget {
-  const HomePageUniversity({Key? key}) : super(key: key);
+class HomePageStudent extends StatefulWidget {
+  const HomePageStudent({Key? key}) : super(key: key);
 
   @override
-  State<HomePageUniversity> createState() => _HomePageUniversityState();
+  State<HomePageStudent> createState() => _HomePageStudentState();
 }
 
-class _HomePageUniversityState extends State<HomePageUniversity> {
+class _HomePageStudentState extends State<HomePageStudent> {
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -33,13 +35,13 @@ class _HomePageUniversityState extends State<HomePageUniversity> {
       ),
       body: SafeArea(
         child: Container(
-          
           padding: Vx.m32,
           child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 EventHeader(),
                 EventList(),
+
               ]
           ),
         ),
@@ -48,6 +50,7 @@ class _HomePageUniversityState extends State<HomePageUniversity> {
     );
   }
 }
+
 class EventHeader extends StatelessWidget {
 
 
@@ -64,6 +67,7 @@ class EventHeader extends StatelessWidget {
     );
   }
 }
+
 class EventList extends StatelessWidget {
   List<Event> events= [
     const Event(
