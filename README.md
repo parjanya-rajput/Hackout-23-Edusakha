@@ -20,5 +20,16 @@ doubts in the chat section also they can speak with the permission of Host.
 ❖ Recorded webinar videos for viewing later
 
 ❖ The institution can view the analytics of the students 
+Attaching few SS of the Application
+<p align="center">
+  <img src="SS/LoginView.png" width="200" height="400" title="LoginPage">
+  <img src="SS/AccType.png" width="200" height="400" alt="accessibility text">
+  <img src="SS/UniversityDashboard.png" width="200" height="400" alt="accessibility text">
+  <img src="SS/CreateEventView.png" width="200" height="400" alt="accessibility text">
+  <img src="SS/EventPage.png" width="200" height="400" alt="accessibility text">
+  <img src="SS/MultipleVideo.jpeg" width="200" height="400" alt="accessibility text">
+  <img src="SS/ChatVIew.png" width="200" height="400" alt="accessibility text">
+  <img src="SS/MemberJoined.png" width="200" height="400" alt="accessibility text">
+</p>
 
 
