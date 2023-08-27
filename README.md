@@ -17,10 +17,12 @@ All this is possible with the help of Flutter, Firebase and Zego-UIKit.
 ❖ Students attend conferences with teachers and can ask their 
 doubts in the chat section also they can speak with the permission of Host.
 
-❖ Recorded webinar videos for viewing later
+❖ Recorded webinar videos for viewing later(To be implemented)
 
-❖ The institution can view the analytics of the students 
-Attaching few SS of the Application
+❖ The institution can view the analytics of the students(To be implemented)
+
+❖ Few screenshots are shown below
+
 <p align="center">
   <img src="SS/LoginView.png" width="200" height="400" title="LoginPage">
   <img src="SS/AccType.png" width="200" height="400" alt="accessibility text">
@@ -31,5 +33,7 @@ Attaching few SS of the Application
   <img src="SS/ChatVIew.png" width="200" height="400" alt="accessibility text">
   <img src="SS/MemberJoined.png" width="200" height="400" alt="accessibility text">
 </p>
+
+❖ This application was build during a HackOut'23 and development time for this app is less than 30hrs :)
 
 
