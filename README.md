@@ -36,4 +36,4 @@ doubts in the chat section also they can speak with the permission of Host.
 
 ❖ This application was build during a HackOut'23 and development time for this app is less than 30hrs :)
 
-
+❖ Built with Love using Flutter 💙 and special thanks to my team - @Riddhi-1510 and @10maysingh
