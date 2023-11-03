@@ -29,6 +29,11 @@ class _LoginScreenState extends State<LoginScreen> {
                   child: Column(
                     children: [
                       const Text('Conference',
+                        style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
+                        textAlign: TextAlign.center,
+                      ),
+                      const SizedBox(height: 10,),
+                      const Text('Enter the conference code below',
                         textAlign: TextAlign.center,
                       ),
                       const SizedBox(height: 40,),
@@ -53,7 +58,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             Navigator.push(context, MaterialPageRoute(builder: (context) => VideoConferencePage(conferenceID: conferenceId.text)));
                           },
                           child: const Text(
-                            'start/join',
+                            'Start/Join',
                             style: TextStyle(fontSize: 20),
                           ),
                         ),
